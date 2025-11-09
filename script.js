@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         threshold: 0.1 
     };
 
-    // Crea el observador
+   
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
            
